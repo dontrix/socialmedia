@@ -1,9 +1,26 @@
 h1 {
-  font-family: 'Pacifico', roboto;
-  margin-top:25%;
+  font-family: 'Gloria Hallelujah', cursive;
   text-align:center;
   font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+}
+
+.center {
+  display: table;
+}
+
+.center>div {
+  display: table-cell;
+  vertical-align: middle;
 }
 body {
   background-color:green;
+  margin: 0;
+  overflow: hidden;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
 }
