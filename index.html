@@ -3,7 +3,7 @@
   <head><link rel="stylesheet" type="text/css" href="main.css"></head>
 <link  href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
 <body>
-  <div id="browser-too-small">
+  <div id="too-small">
     <h1>Page Is Too Small</h1>
   </div>
   <div>
@@ -38,13 +38,13 @@
   #browser-too-small {
     position: fixed; margin: auto;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color:black;
+     background:  url(https://i.imgur.com/Wf71lbG.gif) no-repeat center center fixed;
     z-index: 9999;
     color: #fff;
     display: none;
 }
 @media screen and (max-width: 600px) {
-       #browser-too-small { 
+       #too-small { 
          display: block; 
       }
 } 
