@@ -3,7 +3,6 @@
   <head><link rel="stylesheet" type="text/css" href="main.css"></head>
 <link  href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
 <body>
-  <div id="too-small">
     <h1>Page Is Too Small</h1>
   </div>
   <div>
@@ -35,18 +34,9 @@
 * {
   transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
-  #too-small {
-    position: fixed; margin: auto;
-    top: 0; left: 0; right: 0; bottom: 0;
-     background:  url(https://i.imgur.com/Wf71lbG.gif) no-repeat center center fixed;
-    z-index: 9999;
-    color: #fff;
-    display: none;
-}
+
 @media screen and (max-width: 600px) {
-       #too-small { 
-         display: block; 
-      }
+
 } 
 #hh1 {
   font-family: 'Oswald', sans-serif;
